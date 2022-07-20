@@ -6,7 +6,7 @@ const Header = () => {
             <div className='top-section-bar top-sticky'>
                 <div className='property-owner'>
                     <img alt='person' src={require('../images/star.png')}></img>
-                    <Link to="/"><h1>AGENTLY</h1></Link>
+                    <Link to="/"><h1 style={{fontSize: '20px'}}>AGENTLY</h1></Link>
                 </div>
                 <div>
                     <form className='property-input'>

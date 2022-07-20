@@ -34,7 +34,7 @@ const Properties: React.FC<HouseProps> = props => {
                             <img className='card_image_cover' src={property.image} alt='card_image'></img>
                             <p className='service'>
                                 <b>{property.location}</b>
-                                <p>{property.service}</p>
+                                <p style={{backgroundColor: `${property.service === "NEW" ? '#09AA36' : '#0949AA'}`}}>{property.service}</p>
                             </p>
                             <p>{property.distance}</p>
                             <div className='card__facility'>{property.facilities?.map(prop => (
